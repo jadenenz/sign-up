@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 2;
+    /* grid-template-rows: 3; */
+}
+
+.splashBanner {
+    /* grid-row: 1 / 4; */
+    background-image: url("./leaf.jpg")
+}
+
+.content {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: 3;
+    background-color: lightgray;
+}
+
+.blurb {
+    grid-row: 1 / 2;
+}
+
+.signup {
+    grid-row: 2 / 3;
+}
+
+.footer {
+    grid-row: 3 / 4;
+}
