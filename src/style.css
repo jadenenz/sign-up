@@ -1,12 +1,36 @@
+@font-face {
+    font-family: odin;
+    src: url(Norse-Bold.otf)
+}
+
 .container {
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 1fr 2fr;
     /* grid-template-rows: 3; */
+    height: 100vh;
 }
 
 .splashBanner {
     /* grid-row: 1 / 4; */
-    background-image: url("./leaf.jpg")
+    background-image: url("./leaf.jpg");
+}
+
+.odinDiv {
+    background-color:rgba(0, 0, 0, 0.5);
+    /* opacity: 0.5; */
+    color: white;
+    margin-top: 37%;
+    font-family: odin;
+    font-size: 8em;
+    display: flex;
+    align-items: center;
+}
+
+.odinImg {
+    height: 200px;
+    margin-left: 28%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .content {
@@ -14,16 +38,25 @@
     display: grid;
     grid-template-rows: 3;
     background-color: lightgray;
+    font-family: sans-serif;
 }
 
 .blurb {
     grid-row: 1 / 2;
+    font-size: 2em;
 }
 
 .signup {
     grid-row: 2 / 3;
+    background-color: white;
+    margin-bottom: 30px;
 }
 
 .footer {
     grid-row: 3 / 4;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
 }
