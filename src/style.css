@@ -36,7 +36,7 @@
 .content {
     grid-column: 2 / 3;
     display: grid;
-    grid-template-rows: 3;
+    grid-template-rows: 1fr 1fr 1fr;
     background-color: lightgray;
     font-family: sans-serif;
 }
@@ -44,12 +44,16 @@
 .blurb {
     grid-row: 1 / 2;
     font-size: 2em;
+    margin-top: auto;
+    margin-bottom: 75px;
+    margin-left: 50px;
 }
 
 .signup {
     grid-row: 2 / 3;
     background-color: white;
     margin-bottom: 30px;
+    padding: 15px;
 }
 
 .footer {
