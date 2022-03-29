@@ -54,13 +54,13 @@ a {
 }
 
 .signup {
-    grid-row: 2 / 3;
+    /* grid-row: 2 / 3;
     background-color: white;
     margin-bottom: 30px;
     padding: 15px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -72,4 +72,28 @@ a {
 button {
     background-color: #596D48;
     color: white;
+}
+
+ input {
+    width: 60%;
+}
+
+/* label {
+    flex-basis: 50%;
+} */
+
+.formWrap {
+    flex-basis: 45%;
+}
+
+.actualFormWrap {
+    grid-row: 2 / 3;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+input, label {
+    display: block;
 }
