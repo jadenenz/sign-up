@@ -3,8 +3,8 @@
     src: url(Norse-Bold.otf)
 }
 
-a {
-    color: #E5E7EB
+.footer > a {
+    color: #596D48
 }
 
 .container {
@@ -17,6 +17,7 @@ a {
 .splashBanner {
     /* grid-row: 1 / 4; */
     background-image: url("./leaf.jpg");
+    background-size: cover;
 }
 
 .odinDiv {
@@ -51,6 +52,7 @@ a {
     margin-top: auto;
     margin-bottom: 75px;
     margin-left: 50px;
+    padding-right: 400px;
 }
 
 .signup {
@@ -72,10 +74,13 @@ a {
 button {
     background-color: #596D48;
     color: white;
+    font-size: 1.45em;
+    margin-bottom: 1em;
 }
 
  input {
     width: 60%;
+    margin-bottom: 15px;
 }
 
 /* label {
@@ -96,4 +101,9 @@ button {
 
 input, label {
     display: block;
+}
+
+.creditFooter {
+    color: white;
+    margin-top: auto;
 }
